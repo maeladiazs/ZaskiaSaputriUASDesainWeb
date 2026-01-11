@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - MAZRA Apparel</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #ececec 0%, #ffffff 100%);
+      color: #2b2b2b;
+      margin: 0;
+    }
+
+    .content {
+      padding-top: 100px;
+      padding-bottom: 60px;
+    }
+
+    .contact-box {
+      background: #f8f9fa;
+      padding: 25px;
+      border-radius: 12px;
+      height: 100%;
+    }
+
+    .btn-custom {
+      border-radius: 30px;
+      padding: 12px 35px;
+      transition: all 0.3s ease;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 80px;
+        padding-bottom: 40px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">MAZRA Apparel</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- CONTENT -->
+<div class="container content">
+
+  <!-- HEADER -->
+  <div class="text-center mb-5">
+    <h2 class="fw-bold">Hubungi Kami</h2>
+    <p class="text-muted">Silakan hubungi MAZRA Apparel untuk informasi lebih lanjut</p>
+  </div>
+
+  <div class="row g-4">
+    <!-- FORM KONTAK -->
+    <div class="col-12 col-md-6">
+      <div class="contact-box shadow-sm">
+        <h5 class="fw-bold mb-3">Form Kontak</h5>
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Nama</label>
+            <input type="text" class="form-control" placeholder="Masukkan nama Anda" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Masukkan email Anda" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Pesan</label>
+            <textarea class="form-control" rows="5" placeholder="Tulis pesan Anda" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-dark w-100 btn-custom">
+            Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- INFO KONTAK -->
+    <div class="col-12 col-md-6">
+      <div class="contact-box shadow-sm">
+        <h5 class="fw-bold mb-3">Informasi Kontak</h5>
+
+        <p><strong>Email:</strong><br> mazraapparel@gmail.com</p>
+        <p><strong>Telepon:</strong><br> +62 812-3456-7890</p>
+        <p><strong>Alamat:</strong><br>
+          Jl. Fashion Kreatif No. 10<br>
+          Semarang, Jawa Tengah<br>
+          Indonesia
+        </p>
+
+        <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-success w-100 mt-3 btn-custom">
+          Hubungi via WhatsApp
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p class="mb-0">© 2026 MAZRA Apparel | All Rights Reserved</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
